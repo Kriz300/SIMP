@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-const SimpSchema = new mongoose.Schema({
-    _id: {
-        type: String,
+const GasSchema = new mongoose.Schema({
+    id: {
+        type: Number,
         required: true,
         unique: true
     },
@@ -15,13 +15,13 @@ const SimpSchema = new mongoose.Schema({
         required: true
     },
     valor: {
-        type: Int32Array,
+        type: Number,
         required: true
     },
     alerta: {
-        type: Int32Array,
+        type: Number,
         required: true
     }
 });
 
-module.exports = mongoose.model("alertas_gas", DispSchema, "alertas_gas");
+module.exports = mongoose.model("gas", GasSchema, "alertas_gas");

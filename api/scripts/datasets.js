@@ -1,14 +1,15 @@
 const temp = require("./temp");
 const gas = require("./gas");
 const ruido = require("./ruido");
+const range = require("./range");
 
 let DataSets = (t,g,r) => {
-    var meds = [temp(t), gas(g), ruido(r)];
+    var meds = [temp.temp(t), gas.gas(g), ruido.ruido(r)];
     var D;
     var list = [];
     for (let i = 0; i < 2; i++) {
         D = {
-            labels: range(168),
+            labels: range.range(168),
             datasets: 
             [
                 {
