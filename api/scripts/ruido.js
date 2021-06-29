@@ -2,7 +2,7 @@ let ruido = (o) => {
 	var list = [];
 	var alarms = [];
 	o.forEach(med => {
-		list.push(med["valor"]);
+		list.unshift(med["valor"]);
 
 		if (med["alerta"] === 0) { //normal
 			alarms.unshift(0);

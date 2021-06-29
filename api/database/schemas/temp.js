@@ -24,4 +24,4 @@ const TempSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model("temp", TempSchema, "alertas_temp");
+module.exports = mongoose.model("temp", TempSchema, "alertas_temperatura");
