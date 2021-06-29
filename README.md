@@ -23,6 +23,10 @@ Para más detalles vea [Documentos](documentos).
 * **Plugins:**
 * * Huawei Mobile Services.
 
+## Video de Muestra 🎥
+
+[![Video](https://cdn.discordapp.com/attachments/818470095423930423/859339523112173578/n7mtNUbkXMCv_chara01.png)](https://youtu.be/NjA-pWpbP60)
+
 
 ## Autores ✒️
 
